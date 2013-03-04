@@ -60,6 +60,7 @@
     
     const float violence = 1.5;
 	static BOOL beenhere;
+    static NSString *sound_name;
 	BOOL shake = FALSE;
     
     self.labelX.text = [NSString stringWithFormat:@"x:%f",acceleration.x];
@@ -79,7 +80,12 @@
     
     
     if (shake){
-        [self playSound:@"WoodBlock"];
+        if (count % 10 == 0 && count > 0){
+            sound_name = @"Bell";
+        }else{
+            sound_name = @"WoodBlock";
+        }
+        [self playSound:sound_name];
         count++;
         labelCount.text = [NSString stringWithFormat:@"%d",count];
     }

@@ -14,10 +14,11 @@
 		722F234615FF711E00AC0947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F234515FF711E00AC0947 /* AppDelegate.m */; };
 		722F234915FF711E00AC0947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F234815FF711E00AC0947 /* ViewController.m */; };
 		722F235B15FF720000AC0947 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722F235A15FF720000AC0947 /* ViewController_iPhone.xib */; };
-		722F235D15FF726400AC0947 /* WoodBlock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 722F235C15FF726400AC0947 /* WoodBlock.wav */; };
 		722F235F15FF72A900AC0947 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F235E15FF72A900AC0947 /* AVFoundation.framework */; };
 		722F236115FF72BA00AC0947 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F236015FF72BA00AC0947 /* CoreGraphics.framework */; };
 		722F236315FF72DF00AC0947 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F236215FF72DF00AC0947 /* AVFoundation.framework */; };
+		728F3A5016E4ADB700BA23C2 /* Bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 728F3A4E16E4ADB700BA23C2 /* Bell.wav */; };
+		728F3A5116E4ADB700BA23C2 /* WoodBlock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 728F3A4F16E4ADB700BA23C2 /* WoodBlock.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +34,11 @@
 		722F234715FF711E00AC0947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		722F234815FF711E00AC0947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		722F235A15FF720000AC0947 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
-		722F235C15FF726400AC0947 /* WoodBlock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WoodBlock.wav; sourceTree = "<group>"; };
 		722F235E15FF72A900AC0947 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		722F236015FF72BA00AC0947 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		722F236215FF72DF00AC0947 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		728F3A4E16E4ADB700BA23C2 /* Bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Bell.wav; path = "../../../Music/iTunes/iTunes Media/Music/kanariya0922/kanariya0922/Bell.wav"; sourceTree = "<group>"; };
+		728F3A4F16E4ADB700BA23C2 /* WoodBlock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = WoodBlock.wav; path = "../../../Music/iTunes/iTunes Media/Music/kanariya0922/kanariya0922/WoodBlock.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,8 @@
 		722F233B15FF711E00AC0947 /* MOKUGYO */ = {
 			isa = PBXGroup;
 			children = (
-				722F235C15FF726400AC0947 /* WoodBlock.wav */,
+				728F3A4E16E4ADB700BA23C2 /* Bell.wav */,
+				728F3A4F16E4ADB700BA23C2 /* WoodBlock.wav */,
 				722F234415FF711E00AC0947 /* AppDelegate.h */,
 				722F234515FF711E00AC0947 /* AppDelegate.m */,
 				722F234715FF711E00AC0947 /* ViewController.h */,
@@ -162,7 +165,8 @@
 			files = (
 				722F234015FF711E00AC0947 /* InfoPlist.strings in Resources */,
 				722F235B15FF720000AC0947 /* ViewController_iPhone.xib in Resources */,
-				722F235D15FF726400AC0947 /* WoodBlock.wav in Resources */,
+				728F3A5016E4ADB700BA23C2 /* Bell.wav in Resources */,
+				728F3A5116E4ADB700BA23C2 /* WoodBlock.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
